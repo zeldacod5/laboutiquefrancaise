@@ -1,3 +1,44 @@
+/* /!\/!\/!\ RÉGLAGES DE LA NAVBAR /!\/!\/!\ */
+
 .navbar-item-custom, .navbar-item-custom a {
     color: #fff;
 }
+
+
+
+/* /!\/!\/!\ RÉGLAGES DU PRODUIT /!\/!\/!\ */
+
+.product-item {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+.product-item h5 {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 1px;
+}
+
+.product-item .product-subtitle {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.product-item .product-price {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product-container {
+    margin-bottom: 125px;
+}
+
+.product-page-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* /!\/!\/!\ RÉGLAGES DU FOOTER /!\/!\/!\ */
