@@ -14,8 +14,15 @@ class Search
      */
     public $string = '';
 
+    
     /**
      * @var Category[]
      */
     public $categories = [];
+    
+    public function __toString()
+    {
+        return "Search: string = ". $this->string.", categories=".json_encode($this->categories);
+    }
+
 }
