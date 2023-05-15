@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mes adresse - La Boutique Française{% endblock %}
+
+{% block content %}
+
+    <h1>Mon adresses</h1>
+    Bienvenue {{ app.user.firstname }}. <br/>
+    C'est dans cette espace que vous allez gérer toutes vos adresses. <br/>
+
+        <a href="{{ path('account') }}">Retour</a>
+    
+        <hr>
+        Vue de mes adresses
+        
+{% endblock %}
